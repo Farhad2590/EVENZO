@@ -9,7 +9,7 @@ const useAxiosInstance = () => {
 
   const axiosInstance = useMemo(() => {
     const instance = axios.create({
-      baseURL: 'http://localhost:9000',
+      baseURL: 'https://evenzo-psi.vercel.app',
       headers: {
         'Content-Type': 'application/json',
       },

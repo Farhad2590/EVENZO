@@ -5,7 +5,7 @@ import { toast } from 'react-toastify';
 
 // Create a single axios instance outside the hook
 const api = axios.create({
-  baseURL: 'http://localhost:9000',
+  baseURL: 'https://evenzo-psi.vercel.app',
   headers: { 'Content-Type': 'application/json' },
 });
 

@@ -58,7 +58,7 @@ const signin = async (req, res) => {
       _id: user._id,
     });
   } catch (err) {
-    // console.log(err);
+    console.log(err);
 
     res.status(500).json({
       message: "Internal server errror",
